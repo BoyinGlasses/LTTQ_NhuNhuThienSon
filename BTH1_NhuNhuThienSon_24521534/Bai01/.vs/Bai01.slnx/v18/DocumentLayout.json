@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\BTH1_NhuNhuThienSon_24521534\\Bai01\\",
+  "WorkspaceRootPath": "D:\\LTTQ\\BTH1_NhuNhuThienSon_24521534\\Bai01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE5838CB-8579-44C4-A837-B9C840EE0D20}|Bai01\\Bai01.csproj|d:\\bth1_nhunhuthienson_24521534\\bai01\\bai01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE5838CB-8579-44C4-A837-B9C840EE0D20}|Bai01\\Bai01.csproj|d:\\lttq\\bth1_nhunhuthienson_24521534\\bai01\\bai01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE5838CB-8579-44C4-A837-B9C840EE0D20}|Bai01\\Bai01.csproj|solutionrelative:bai01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,19 +14,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\BTH1_NhuNhuThienSon_24521534\\Bai01\\Bai01\\Program.cs",
+              "DocumentMoniker": "D:\\LTTQ\\BTH1_NhuNhuThienSon_24521534\\Bai01\\Bai01\\Program.cs",
               "RelativeDocumentMoniker": "Bai01\\Program.cs",
-              "ToolTip": "D:\\BTH1_NhuNhuThienSon_24521534\\Bai01\\Bai01\\Program.cs",
+              "ToolTip": "D:\\LTTQ\\BTH1_NhuNhuThienSon_24521534\\Bai01\\Bai01\\Program.cs",
               "RelativeToolTip": "Bai01\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T01:08:06.212Z",
+              "WhenOpened": "2025-09-26T07:42:58.998Z",
               "EditorCaption": ""
             }
           ]
