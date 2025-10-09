@@ -5,3 +5,10 @@ D:\BTH1_NhuNhuThienSon_24521534\Bai03\Bai03\obj\Debug\Bai03.csproj.AssemblyRefer
 D:\BTH1_NhuNhuThienSon_24521534\Bai03\Bai03\obj\Debug\Bai03.csproj.CoreCompileInputs.cache
 D:\BTH1_NhuNhuThienSon_24521534\Bai03\Bai03\obj\Debug\Bai03.exe
 D:\BTH1_NhuNhuThienSon_24521534\Bai03\Bai03\obj\Debug\Bai03.pdb
+D:\LTTQ\BTH1_NhuNhuThienSon_24521534\Bai03\Bai03\bin\Debug\Bai03.exe.config
+D:\LTTQ\BTH1_NhuNhuThienSon_24521534\Bai03\Bai03\bin\Debug\Bai03.exe
+D:\LTTQ\BTH1_NhuNhuThienSon_24521534\Bai03\Bai03\bin\Debug\Bai03.pdb
+D:\LTTQ\BTH1_NhuNhuThienSon_24521534\Bai03\Bai03\obj\Debug\Bai03.csproj.AssemblyReference.cache
+D:\LTTQ\BTH1_NhuNhuThienSon_24521534\Bai03\Bai03\obj\Debug\Bai03.csproj.CoreCompileInputs.cache
+D:\LTTQ\BTH1_NhuNhuThienSon_24521534\Bai03\Bai03\obj\Debug\Bai03.exe
+D:\LTTQ\BTH1_NhuNhuThienSon_24521534\Bai03\Bai03\obj\Debug\Bai03.pdb
