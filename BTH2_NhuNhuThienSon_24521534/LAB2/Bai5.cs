@@ -8,9 +8,12 @@ namespace LAB2
 {
     internal class Bai5
     {
-        public static void Run()
+
+    public static void Run()
         {
-            Console.WriteLine("Bai 5");
+
         }
+            
+        
     }
 }

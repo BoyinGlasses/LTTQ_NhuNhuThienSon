@@ -21,7 +21,12 @@ namespace Bai02
         static void Main(string[] args)
         {
             Console.WriteLine("Nhap so nguyen duong n: ");
-            int n = int.Parse(Console.ReadLine());
+            int n;
+            while(!int.TryParse(Console.ReadLine(), out n) || n <= 0)
+            {
+                Console.Write("Vui long nhap mot so nguyen duong: ");
+            }
+           
             int sum = 0;
             for (int i = 2; i < n; i++)
             {

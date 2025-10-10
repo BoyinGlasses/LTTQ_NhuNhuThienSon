@@ -28,7 +28,11 @@ namespace Bai01
         static void Main(string[] args)
         {
             Console.WriteLine("Nhap n: ");
-            int n = int.Parse(Console.ReadLine());
+            int n;
+            while (!int.TryParse(Console.ReadLine(), out n) || n <= 0)
+            {
+                Console.Write("n phai la mot so nguyen duong, vui long nhap lai n: ");
+            }
             int[] arr = new int[n];
             Random Random = new Random();
             for (int i = 0; i < n; i++)

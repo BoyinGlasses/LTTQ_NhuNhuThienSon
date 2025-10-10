@@ -10,21 +10,10 @@ namespace Bai03
     {
         static void Main(string[] args)
         {
-            int day, month, year;
-            Console.Write("Nhap ngay: ");
-            day = int.Parse(Console.ReadLine());
-            Console.Write("Nhap thang: ");
-            month = int.Parse(Console.ReadLine());
-            Console.Write("Nhap nam: ");
-            year = int.Parse(Console.ReadLine());
-            try { 
-                DateTime dateCheck = new DateTime(year, month, day);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Ngay thang nam khong hop le!");
-                return;
-            }
+            DateTime dt;
+            Console.WriteLine("Nhap ngay thang nam (dd/mm/yyyy): ");
+            while(!DateTime.TryParse(Console.ReadLine(), out dt))
+                Console.WriteLine("Ngay thang nam khong hop le! Vui long nhap lai (dd/mm/yyyy): ");
             Console.WriteLine("Ngay thang nam hop le!");
 
         }
