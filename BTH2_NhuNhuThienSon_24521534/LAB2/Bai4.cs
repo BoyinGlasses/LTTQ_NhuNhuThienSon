@@ -160,6 +160,24 @@ namespace LAB2
         public static void Run()
         {
             Console.WriteLine("Bai 4: ");
+            Console.WriteLine("Nhap phan so thu nhat: ");
+            Console.Write("Tu so: ");
+            int t1 = int.Parse(Console.ReadLine());
+            Console.Write("Mau so: ");
+            int m1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Nhap phan so thu hai: ");
+            Console.Write("Tu so: ");
+            int t2 = int.Parse(Console.ReadLine());
+            Console.Write("Mau so: ");
+            int m2 = int.Parse(Console.ReadLine());
+            
+            PhanSo ps1 = new PhanSo(t1, m1);    
+            PhanSo ps2 = new PhanSo(t2, m2);
+
+            Console.Write("Tong: "); (ps1 + ps2).xuat(); Console.WriteLine();
+            Console.Write("Hieu: "); (ps1 - ps2).xuat(); Console.WriteLine();
+            Console.Write("Tich: "); (ps1 * ps2).xuat(); Console.WriteLine();
+            Console.Write("Thuong: "); (ps1 / ps2).xuat(); Console.WriteLine();
             Console.WriteLine("Nhap so phan tu: ");
             int n = int.Parse(Console.ReadLine());
             PhanSo[] a = new PhanSo[n];
@@ -174,10 +192,10 @@ namespace LAB2
                 a[i].xuat();
                 Console.Write(" ");
             }
-            float [] PhanSotrueValue = new float[n];
+            double [] PhanSotrueValue = new double[n];
             for (int i = 0; i < n; i++)
             {
-                PhanSotrueValue[i] = (float)a[i].TuSo / a[i].MauSo;
+                PhanSotrueValue[i] = (double)a[i].TuSo / a[i].MauSo;
             }
             Array.Sort(PhanSotrueValue, a);
             Console.WriteLine();

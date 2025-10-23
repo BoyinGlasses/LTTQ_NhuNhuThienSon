@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,9 +12,22 @@ namespace LAB2
         public static void Run()
         {
             Console.WriteLine("Bai 1:");
-            Console.WriteLine("Nhap thang va nam: ");
-            int month = int.Parse(Console.ReadLine());
-            int year = int.Parse(Console.ReadLine());
+            int month;
+            int year;
+            while (true)
+            {
+
+                Console.WriteLine("Nhap thang va nam: ");
+                month = int.Parse(Console.ReadLine());
+                year = int.Parse(Console.ReadLine());
+                if (month < 1 || month > 12 || year < 1)
+                {
+                    Console.WriteLine("Thang hoac nam khong hop le. Vui long nhap lai.");
+                    continue;
+                }
+                break;
+            }
+
             int days = DateTime.DaysInMonth(year, month);
             int[,] calendar = new int[6, 7];
             DateTime firstDay = new DateTime(year, month, 1);
