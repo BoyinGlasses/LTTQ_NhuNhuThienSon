@@ -109,7 +109,6 @@ namespace LAB2
                 tuSo /= a;
                 mauSo /= a;
             }
-            //phep toan
 
             public static PhanSo operator +(PhanSo a, PhanSo b)
                 {
@@ -132,7 +131,6 @@ namespace LAB2
                     return new PhanSo(a.tuSo * b.mauSo, a.mauSo * b.tuSo);
                 }
         
-            //so sanh
             public static bool operator >(PhanSo a, PhanSo b)
             {
                 return (a.tuSo * b.mauSo > b.tuSo * a.mauSo);
